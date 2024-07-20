@@ -86,3 +86,8 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
